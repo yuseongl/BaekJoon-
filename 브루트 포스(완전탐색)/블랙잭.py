@@ -1,11 +1,11 @@
-from collections import deque
-
 N,M = map(int,input().split())
 num_list = list(map(int,input().split()))
+
 visited = [False]*N
 num = 0
 num2 = 0
 cnt = 0
+
 for j in range(N):
     visited[j] = True
     for k in range(N):
